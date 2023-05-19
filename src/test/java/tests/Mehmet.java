@@ -73,9 +73,32 @@ public class Mehmet {
     11) the code we have written is in our local (own) computer, we have not uploaded anything to remote server. To send our code to
     // git hub
 
-    git add .      // if you want to send everything
-    git commit -m "anyMessage"      //in message section we can write ourname date and a short explaining
-    git push
+    git add .                           // if you want to send everything
+    git commit -m "anyMessage"          //in message section we can write ourname date and a short explaining
+    git push                            // at first push of your branch it may ask you to write something like this git push --set-upstream origin mehmet
+
+    12) in github home page there should be a green button named compare and pull request after pushing your codes. If you can not see the button you can also
+    visit pull requests page from github
+    13) If there is no problem there should be  create a pull request button ( green)
+    14) if still there is no prblem we will click  merge pull request (green)
+    15) confirm merge
+    merging is completed
+
+    // everybody's codes are merged in github but nobody has this merged project in their computers.
+
+    16) first we need to pull master branch to do that first we need to switch to master branch
+    but we need to create a version for our code
+    git add .
+    git commit -m "anymessage
+
+
+    git checkout master
+    git branch
+
+
+
+
+
 
 
 
