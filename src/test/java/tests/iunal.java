@@ -6,5 +6,7 @@ public class iunal {
         System.out.println("This class has been created by IUNAL");
 
         System.out.println("Second line of my class");
+
+        System.out.println("3rd Line");
     }
 }
