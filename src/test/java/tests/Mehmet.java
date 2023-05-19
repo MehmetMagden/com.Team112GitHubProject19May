@@ -100,6 +100,60 @@ public class Mehmet {
     git checkout master
     git branch
 
+    if you are sure that you have switched to master branch, we need to pull merged files from github
+
+    git pull        // it will download everybody's codes from github to our master branch in our computer
+
+    // but we are still in danger zone, master branch. We need to take everybody's codes to our own branch by merging
+
+    17) swtich to own branch
+    git checkout mehmet
+    git branch
+
+    18) if we are in our own branch we can merge master with our branch
+    git merge master
+
+
+    ***** to repead same process
+    1) we wrote new code                                                                                ****** we should save our code
+    2) to send our code to remote repository
+    git add .
+    git commit -m "namedateShort"
+
+        // these steps will save your code
+        // lets complete merging steps                                                                  ****** we should get updated files from master
+    3) switch to master branch
+    git checkout master
+    git branch
+
+    4) to get everybody's code
+    git pull
+
+    5)we are still in danger zone, we shold leave asap, we should switch to our own branch              ***** we should complete merging in our computer
+    git checkout mehmet
+    git branch
+
+    6) we should merge our branch with master
+    git merge master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
