@@ -8,7 +8,14 @@ public class Maden {
 
 
 
+
         System.out.println("Hep problem hep problem");
+
+        System.out.println("second line of my code");
+        System.out.println("third line");
+        System.out.println("line 4");
+        System.out.println("conflict place maden");
+
 
     }
 
