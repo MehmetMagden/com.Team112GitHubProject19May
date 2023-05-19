@@ -136,6 +136,14 @@ public class Mehmet {
     6) we should merge our branch with master
     git merge master
 
+    7) to send all merged and updated file to github  // you may to write git add . and git commit -m "anymessage"  //if system asks you to do so
+    git push
+
+    8) to create a pull request for team lead we should choose
+    pull requests from project home page
+    9) new pull request
+    10 select the branch >> create pull request >> create pull request
+
 
 
 

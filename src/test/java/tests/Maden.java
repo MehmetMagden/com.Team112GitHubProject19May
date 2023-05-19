@@ -6,6 +6,8 @@ public class Maden {
 
         System.out.println("Hello word Maden");
         System.out.println("second line of my code");
+        System.out.println("third line");
+
     }
 
 }
