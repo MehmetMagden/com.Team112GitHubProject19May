@@ -73,9 +73,99 @@ public class Mehmet {
     11) the code we have written is in our local (own) computer, we have not uploaded anything to remote server. To send our code to
     // git hub
 
-    git add .      // if you want to send everything
-    git commit -m "anyMessage"      //in message section we can write ourname date and a short explaining
+    git add .                           // if you want to send everything
+    git commit -m "anyMessage"          //in message section we can write ourname date and a short explaining
+    git push                            // at first push of your branch it may ask you to write something like this git push --set-upstream origin mehmet
+
+    12) in github home page there should be a green button named compare and pull request after pushing your codes. If you can not see the button you can also
+    visit pull requests page from github
+
+    13) If there is no problem there should be  create a pull request button ( green)
+
+    14) if still there is no prblem we will click  merge pull request (green)
+
+    15) confirm merge
+
+    merging is completed
+
+    // everybody's codes are merged in github but nobody has this merged project in their computers.
+
+    16) first we need to pull master branch to do that first we need to switch to master branch
+    but we need to create a version for our code
+
+    git add .
+    git commit -m "anymessage"
+
+
+    git checkout master
+    git branch
+
+    if you are sure that you have switched to master branch, we need to pull merged files from github
+
+    git pull        // it will download everybody's codes from github to our master branch in our computer
+
+    // but we are still in danger zone, master branch. We need to take everybody's codes to our own branch by merging
+
+    17) swtich to own branch
+    git checkout mehmet
+    git branch
+
+    18) if we are in our own branch we can merge master with our branch
+    git merge master
+
+
+    ***** to repead same process
+    1) we wrote new code                                                                                ****** we should save our code
+    2) to send our code to remote repository
+    git add .
+    git commit -m "namedateShort"
+
+        // these steps will save your code
+        // lets complete merging steps                                                                  ****** we should get updated files from master
+    3) switch to master branch
+    git checkout master
+    git branch
+
+    4) to get everybody's code
+    git pull
+
+    5)we are still in danger zone, we shold leave asap, we should switch to our own branch              ***** we should complete merging in our computer
+    git checkout mehmet
+    git branch
+
+    6) we should merge our branch with master
+    git merge master
+
+    7) to send all merged and updated file to github  // you may to write git add . and git commit -m "anymessage"  //if system asks you to do so
     git push
+
+    8) to create a pull request for team lead we should choose
+    pull requests from project home page
+    9) new pull request
+    10 select the branch >> create pull request >> create pull request
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
