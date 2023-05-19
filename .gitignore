@@ -1,0 +1,7 @@
+/.idea/
+/target/
+/test-output/
+/xmlFiles/
+
+# you have to create ".ignore" file before initialising gitHub by "git init" command
+# we have written all folder names that we don't want to upload to gitHub remote server to prevent conflicts
