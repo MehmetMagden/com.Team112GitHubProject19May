@@ -142,7 +142,18 @@ public class Mehmet {
     8) to create a pull request for team lead we should choose
     pull requests from project home page
     9) new pull request
-    10 select the branch >> create pull request >> create pull request
+    10) select the branch >> create pull request >> create pull request
+
+
+    ***** If you changed something in master branch, to reset (dangerous)
+
+    git stash --include-untracked
+
+    git reset --hard
+
+    git clean -fd
+
+    git pull
 
 
 
